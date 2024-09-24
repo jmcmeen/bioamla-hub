@@ -6,3 +6,4 @@ opensoundscape
 folium
 mapclassify
 novus-pytils
+pyinaturalist
