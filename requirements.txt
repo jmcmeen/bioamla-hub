@@ -1,0 +1,8 @@
+pandas
+geopandas
+geopy
+tensorflow[and-cuda]==2.17.*
+opensoundscape
+folium
+mapclassify
+novus-pytils
