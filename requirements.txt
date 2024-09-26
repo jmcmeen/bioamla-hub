@@ -1,9 +1,1 @@
-pandas
-geopandas
-geopy
-opensoundscape
-folium
-mapclassify
-novus-pytils
 pyinaturalist
-pydub
