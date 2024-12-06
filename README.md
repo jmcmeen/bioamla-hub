@@ -1,4 +1,4 @@
-# BIOAMLA - BioAcoustics for Machine Learning Applications
+# BioAMLA - BioAcoustics for Machine Learning Applications
 
 The BIOAMLA project is a collection of resources for introductory topics in bioacoustics, sound processing, and machine learning. 
 
