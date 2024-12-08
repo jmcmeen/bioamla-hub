@@ -8,7 +8,7 @@ The BIOAMLA project is a collection of resources for introductory topics in bioa
 This audio dataset contains 2822 wav/mp3 files collected from five locations in Steele Creek Park from Feb. through Sept. 2023. 
 
 [Braulio Carillo National Park/ La Selva Research Station, Costa Rica 2024](datasets/costa_rica_2024/README.md).
-This audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo 
+This audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo National Park, Costa Rica from July 9th - 24th, 2024.
 
 ## Code
 Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These xamples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using a both Nvidia GTX 1660Ti 6GB and RTX 4060 Ti 8GB GPUs.
