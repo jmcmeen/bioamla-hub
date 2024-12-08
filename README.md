@@ -11,7 +11,7 @@ This audio dataset contains 2822 wav/mp3 files collected from five locations in 
 This audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo 
 
 ## Code
-Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These xamples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using a both Nvidia GTX 1660Ti 6GB and RTX 3090 8GB GPUs.
+Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These xamples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using a both Nvidia GTX 1660Ti 6GB and RTX 4060 Ti 8GB GPUs.
 
 This repository is currently a work in progress with mutiple updates through Fall 2024 and Spring 2025. Check back for updates.
 
