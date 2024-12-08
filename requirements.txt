@@ -7,3 +7,5 @@ datasets[audio]
 audiomentations
 evaluate
 tensorboardX
+opensoundscape
+novus-pytils
