@@ -1,1 +1,9 @@
 pyinaturalist
+torch
+torchvision
+torchaudio
+transformers[torch]
+datasets[audio]
+audiomentations
+evaluate
+tensorboardX
