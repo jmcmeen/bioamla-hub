@@ -9,3 +9,6 @@ evaluate
 tensorboardX
 opensoundscape
 novus-pytils
+streamlit
+uvicorn
+python-multipart
