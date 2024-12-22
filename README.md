@@ -14,7 +14,7 @@ This audio dataset contains 601 wav/mp3 files (600 hours) collected from five lo
 - [Testing GPU Capabilities for PyTorch](notebooks/torch_gpu_test.ipynb)
 
 ## Apps
-- [Streamlit App for Audio Classification Using AST](/apps/ast_audio_classifier/README.md)
+- [Streamlit App for Audio Classification Using AST](/apps/ast_audio_classifier/)
 
 ## Notes
 Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These xamples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using both Nvidia GTX 1660Ti 6GB and RTX 4060 Ti 8GB GPUs.
