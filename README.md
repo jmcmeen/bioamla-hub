@@ -1,4 +1,4 @@
-# BioAMLA - BioAcoustics for Machine Learning Applications
+# BioAMLA - BioAcoustics & Machine Learning Applications
 
 The BIOAMLA project is a collection of resources for introductory topics in bioacoustics, sound processing, and machine learning. 
 
@@ -17,9 +17,9 @@ This audio dataset contains 601 wav/mp3 files (600 hours) collected from five lo
 - [Streamlit App for Audio Classification Using AST](/apps/ast_audio_classifier/)
 
 ## Notes
-Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These xamples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using both Nvidia GTX 1660Ti 6GB and RTX 4060 Ti 8GB GPUs.
+Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These samples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.11.9 using both Nvidia GTX 1660Ti 6GB and RTX 4060 Ti 8GB GPUs.
 
-This repository is currently a work in progress with mutiple updates through Fall 2024 and Spring 2025. Check back for updates.
+This repository is currently a work in progress with mutiple updates anticipated through in Summer 2025. Check back for updates.
 
 ## Related Projects
   - The Frogs of Steele Creek Park (<a href="https://github.com/jmcmeen/frogs-of-steele-creek">GitHub</a>)
