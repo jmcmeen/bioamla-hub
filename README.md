@@ -2,11 +2,8 @@
 
 The BIOAMLA project is a collection of resources for introductory topics in bioacoustics, sound processing, and machine learning. 
 
-## Datasets
-- [Steele Creek Park Wetlands, Bristol, TN 2023](datasets/scp_2023/README.md) : 
-This audio dataset contains 2822 wav/mp3 files collected from five locations in Steele Creek Park from Feb. through Sept. 2023. 
-- [Braulio Carillo National Park/ La Selva Research Station, Costa Rica 2024](datasets/costa_rica_2024/README.md) :
-This audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo National Park, Costa Rica from July 9th - 24th, 2024.
+## BioAMLA DataSets
+Datasets are located at [jmcmeen/bioamla-datasets](https://github.com/jmcmeen/bioamla-datasets). 
 
 ## Notebooks
 - [Using PyINaturlist To Retrieve Data Collected at La Selva](notebooks/inaturalist_la_selva.ipynb)
