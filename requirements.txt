@@ -12,3 +12,5 @@ novus-pytils
 streamlit
 uvicorn
 python-multipart
+numpy
+jupyter
