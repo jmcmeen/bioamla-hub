@@ -87,6 +87,26 @@ The bioacoustics community has developed a rich ecosystem of open-source tools f
 - [Orcasound](https://www.orcasound.net/) - Open-source hydrophone network for orca conservation
 - [Wild Me](https://www.wildme.org/) - AI-powered wildlife identification and population monitoring
 
+## Bioacoustics Resources on Hugging Face 🤗
+
+- [NatureLM-audio](https://huggingface.co/EarthSpeciesProject/NatureLM-audio) - First audio-language foundation model for bioacoustics (Earth Species Project)
+- [Perch](https://huggingface.co/cgeorgiaw/Perch) - Google's Perch model for embeddings and classification (~15k species)
+- [WhisperSeg Animal VAD](https://huggingface.co/nccratliri/whisperseg-base-animal-vad) - Voice Activity Detection for human vs. animal vocalizations
+- [AudioProtoPNet BirdSet](https://huggingface.co/DBD-research-group/AudioProtoPNet-5-BirdSet-XCL) - Interpretable model trained on BirdSet
+- [Wav2Vec2 BirdSet](https://huggingface.co/DBD-research-group/Wav2Vec2-Base-BirdSet) - Wav2Vec2 pretrained on BirdSet corpus
+- [AST Bird Voice](https://huggingface.co/JamesStratford/ast-finetuned-voice-of-birds) - Audio Spectrogram Transformer for bird vocalizations
+- [WhAM](https://huggingface.co/Project-CETI/wham) - Whale Acoustics Model for sperm whale codas
+- [Animal Sounds Wav2Vec2](https://huggingface.co/ardneebwar/wav2vec2-animal-sounds-finetuned-hubert-finetuned-animals) - General animal sounds classification
+- [BirdSet](https://huggingface.co/datasets/DBD-research-group/BirdSet) - Major benchmark for avian bioacoustics
+- [BEANS-Zero](https://huggingface.co/datasets/EarthSpeciesProject/BEANS-Zero) - Zero-shot benchmark for bioacoustic foundation models
+- [NatureLM Training Data](https://huggingface.co/datasets/EarthSpeciesProject/NatureLM-audio-training) - Massive audio-text pairs from Xeno-Canto, Macaulay, and others
+- [WABAD](https://huggingface.co/datasets/DBD-research-group/WABAD) - World Annotated Bird Acoustic Dataset
+- [WhaleSounds](https://huggingface.co/datasets/monster-monash/WhaleSounds) - Antarctic baleen whale sounds
+- [InsectSound](https://huggingface.co/datasets/monster-monash/InsectSound) - Insect vibration/sound recordings
+- [DogSpeak](https://huggingface.co/datasets/ArlingtonCL2/DogSpeak_Dataset) - Large-scale canine vocalizations
+- [The Wilds PAM](https://huggingface.co/datasets/imageomics/thewilds_bioacousticmonitors) - Raw passive acoustic monitoring data
+
+
 ## Acknowledgments
 
 - Thank you to The Friends of Steele Creek Nature Center and Park for grant support for the 2023 SCP Wetlands project. [Friends of Steele Creek Park](https://www.friendsofsteelecreek.org/)
