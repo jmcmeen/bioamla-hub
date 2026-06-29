@@ -1,57 +1,36 @@
-# BioAMLA - Bioacoustics & Machine Learning Applications
+# BIOAMLA Hub
 
-The BIOAMLA project is a collection of resources for introductory topics in bioacoustics, sound processing, and machine learning. Supplementary code examples are being developed to demonstrate bioacoustics and machine learning techniques using Python / Jupyter notebooks. These samples will run best on a GPU equipped device. Code has been tested on Ubuntu 22.04.5 LTS and Python 3.12 using Nvidia GTX 1660Ti 6GB, RTX 4060 Ti 8GB, and RTX 5060 Ti 16GB GPUs.
+> A curated index of the BIOAMLA ecosystem — tools, datasets, related software, and organizations for researchers getting oriented in bioacoustics and machine learning.
 
-## Setup
+[![bioamla on PyPI](https://img.shields.io/pypi/v/bioamla?label=bioamla%20on%20PyPI)](https://pypi.org/project/bioamla/)
 
-To run the notebooks or apps, you'll need to set up your Python environment:
+## About
 
-1. Clone this repository:
+BIOAMLA (Bioacoustics & Machine Learning Applications) is a collection of resources for
+bioacoustics, sound processing, and machine learning. This repository is a human-readable
+resource hub: a curated index of the BIOAMLA ecosystem's first-party tools and datasets,
+along with related community software, organizations, and Hugging Face resources for
+researchers getting oriented in the field.
 
-   ```bash
-   git clone https://github.com/jmcmeen/bioamla-hub.git
-   cd bioamla-hub
-   ```
+## BIOAMLA Projects
 
-2. Create and activate a virtual environment:
-
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Launch Jupyter to run notebooks:
-
-   ```bash
-   jupyter notebook
-   ```
-
-For GPU support, ensure you have the appropriate CUDA drivers and PyTorch GPU version installed.
-
-## Notebooks
-
-- [Using PyINaturlist To Download Audio from La Selva Biological Station, Costa Rica](notebooks/inaturalist_la_selva.ipynb)
-- [Wave File Dissection (Basics)](notebooks/dissecting_wav_files.ipynb)
-- [Testing GPU Capabilities for PyTorch](notebooks/torch_gpu_test.ipynb)
-
-## Apps
-
-- [Streamlit App for Audio Classification Using AST](/apps/ast_audio_classifier/)
-
-## BIOMLA Projects
-
-- [jmcmeen/frogs-of-steele-creek](https://github.com/jmcmeen/frogs-of-steele-creek): The Frogs of Steele Creek Park is an introduction to bioacoustics, computer science, and machine learning, featuring research from Appalachian Mountains.
-- [jmcmeen/bioamla-datasets](https://github.com/jmcmeen/bioamla-datasets): BIOAMLA Datasets is a collection of raw and annotated datasets created by BIOAMLA for current research in the Appalachian Mountains and Costa Rica.
+| Repository | Description |
+| --- | --- |
+| [bioamla](https://github.com/jmcmeen/bioamla) | Core Python library and CLI for bioacoustics and ML |
+| [bioamla-datasets](https://github.com/jmcmeen/bioamla-datasets) | Curated environmental audio datasets |
+| [bioamla-workflows](https://github.com/jmcmeen/bioamla-workflows) | Kedro and n8n workflow templates |
+| [bioamla-hub](https://github.com/jmcmeen/bioamla-hub) | This repository — resource index |
+| [magpy](https://github.com/jmcmeen/magpy) | Desktop GUI for spectrograms and annotation (PyQt6) |
+| [magpy-lite](https://github.com/jmcmeen/magpy-lite) | Lightweight companion annotation GUI |
+| [observa](https://github.com/jmcmeen/observa) | Dockerized iNaturalist Open Data platform |
+| [riffy](https://github.com/jmcmeen/riffy) | Zero-dependency RIFF/WAV parsing library |
+| [terrana](https://github.com/jmcmeen/terrana) | Zero-config spatial API server |
+| [frogs-of-steele-creek](https://github.com/jmcmeen/frogs-of-steele-creek) | Frog species identification for Steele Creek Park |
 
 ## Related Bioacoustics Software
 
-The bioacoustics community has developed a rich ecosystem of open-source tools for wildlife sound analysis. Below are notable projects.
+The bioacoustics community has developed a rich ecosystem of open-source tools for wildlife
+sound analysis. Below are notable projects. _Last reviewed: June 2026._
 
 - [BirdNET-Analyzer](https://github.com/birdnet-team/BirdNET-Analyzer) - Batch processing of large audio corpora with species detections
 - [BirdNET-Go](https://github.com/tphakala/birdnet-go) - Real-time BirdNET-based monitoring with dashboards
@@ -89,6 +68,8 @@ The bioacoustics community has developed a rich ecosystem of open-source tools f
 
 ## Bioacoustics Resources on Hugging Face 🤗
 
+### Models
+
 - [NatureLM-audio](https://huggingface.co/EarthSpeciesProject/NatureLM-audio) - First audio-language foundation model for bioacoustics (Earth Species Project)
 - [Perch](https://huggingface.co/cgeorgiaw/Perch) - Google's Perch model for embeddings and classification (~15k species)
 - [WhisperSeg Animal VAD](https://huggingface.co/nccratliri/whisperseg-base-animal-vad) - Voice Activity Detection for human vs. animal vocalizations
@@ -97,6 +78,9 @@ The bioacoustics community has developed a rich ecosystem of open-source tools f
 - [AST Bird Voice](https://huggingface.co/JamesStratford/ast-finetuned-voice-of-birds) - Audio Spectrogram Transformer for bird vocalizations
 - [WhAM](https://huggingface.co/Project-CETI/wham) - Whale Acoustics Model for sperm whale codas
 - [Animal Sounds Wav2Vec2](https://huggingface.co/ardneebwar/wav2vec2-animal-sounds-finetuned-hubert-finetuned-animals) - General animal sounds classification
+
+### Datasets
+
 - [BirdSet](https://huggingface.co/datasets/DBD-research-group/BirdSet) - Major benchmark for avian bioacoustics
 - [BEANS-Zero](https://huggingface.co/datasets/EarthSpeciesProject/BEANS-Zero) - Zero-shot benchmark for bioacoustic foundation models
 - [NatureLM Training Data](https://huggingface.co/datasets/EarthSpeciesProject/NatureLM-audio-training) - Massive audio-text pairs from Xeno-Canto, Macaulay, and others
@@ -105,7 +89,6 @@ The bioacoustics community has developed a rich ecosystem of open-source tools f
 - [InsectSound](https://huggingface.co/datasets/monster-monash/InsectSound) - Insect vibration/sound recordings
 - [DogSpeak](https://huggingface.co/datasets/ArlingtonCL2/DogSpeak_Dataset) - Large-scale canine vocalizations
 - [The Wilds PAM](https://huggingface.co/datasets/imageomics/thewilds_bioacousticmonitors) - Raw passive acoustic monitoring data
-
 
 ## Acknowledgments
 
