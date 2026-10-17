@@ -3,6 +3,11 @@
 > A curated index of the BIOAMLA ecosystem — tools, datasets, related software, and organizations for researchers getting oriented in bioacoustics and machine learning.
 
 [![bioamla on PyPI](https://img.shields.io/pypi/v/bioamla?label=bioamla%20on%20PyPI)](https://pypi.org/project/bioamla/)
+[![magpy-gui on PyPI](https://img.shields.io/pypi/v/magpy-gui?label=magpy-gui%20on%20PyPI)](https://pypi.org/project/magpy-gui/)
+[![magpy-lite on PyPI](https://img.shields.io/pypi/v/magpy-lite?label=magpy-lite%20on%20PyPI)](https://pypi.org/project/magpy-lite/)
+[![riffy on PyPI](https://img.shields.io/pypi/v/riffy?label=riffy%20on%20PyPI)](https://pypi.org/project/riffy/)
+[![terrana on PyPI](https://img.shields.io/pypi/v/terrana?label=terrana%20on%20PyPI)](https://pypi.org/project/terrana/)
+[![terrana on crates.io](https://img.shields.io/crates/v/terrana?label=terrana%20on%20crates.io)](https://crates.io/crates/terrana)
 
 ## About
 
@@ -20,7 +25,7 @@ researchers getting oriented in the field.
 | [bioamla-datasets](https://github.com/jmcmeen/bioamla-datasets) | Curated environmental audio datasets |
 | [bioamla-hub](https://github.com/jmcmeen/bioamla-hub) | This repository — resource index |
 | [magpy](https://github.com/jmcmeen/magpy) | Desktop GUI for spectrograms and annotation (PyQt6) |
-| [magpy-lite](https://github.com/jmcmeen/magpy-lite) | Lightweight companion annotation GUI |
+| [magpy-lite](https://github.com/jmcmeen/magpy-lite) | Terminal interface for the bioamla toolkit |
 | [observa](https://github.com/jmcmeen/observa) | Dockerized iNaturalist Open Data platform |
 | [riffy](https://github.com/jmcmeen/riffy) | Zero-dependency RIFF/WAV parsing library |
 | [terrana](https://github.com/jmcmeen/terrana) | Zero-config spatial API server |
