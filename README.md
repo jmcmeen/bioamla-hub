@@ -18,7 +18,6 @@ researchers getting oriented in the field.
 | --- | --- |
 | [bioamla](https://github.com/jmcmeen/bioamla) | Core Python library and CLI for bioacoustics and ML |
 | [bioamla-datasets](https://github.com/jmcmeen/bioamla-datasets) | Curated environmental audio datasets |
-| [bioamla-workflows](https://github.com/jmcmeen/bioamla-workflows) | Kedro and n8n workflow templates |
 | [bioamla-hub](https://github.com/jmcmeen/bioamla-hub) | This repository — resource index |
 | [magpy](https://github.com/jmcmeen/magpy) | Desktop GUI for spectrograms and annotation (PyQt6) |
 | [magpy-lite](https://github.com/jmcmeen/magpy-lite) | Lightweight companion annotation GUI |
